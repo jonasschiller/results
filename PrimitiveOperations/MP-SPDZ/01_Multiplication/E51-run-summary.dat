@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 51_Int_Multiplication 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.128.0/24
+    Protocols:
+      Field  = ps-rep-field replicated-field
+      Ring   = ps-rep-ring replicated-ring
+      Binary = 
+    Inputs = 1000000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 25 50 75
+      PACKETDROPS	= 0 1 2 5
+      BANDWIDTHS	= 250000 10000 1000 100
+  Summary file = results/2024-02/16_21-58-49/E51-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-02-16_21-58-52_539172
+  Total Experiment runtime = 2h49min48sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.128.3 ping statistics ---
+rtt min/avg/max/mdev = 0.249/0.315/0.471/0.079 ms
+--- 10.10.128.4 ping statistics ---
+rtt min/avg/max/mdev = 0.287/0.292/0.300/0.004 ms
+Node tinyman statistics
+--- 10.10.128.4 ping statistics ---
+rtt min/avg/max/mdev = 0.267/0.332/0.536/0.102 ms
+--- 10.10.128.2 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.279/0.288/0.007 ms
+Node yieldly statistics
+--- 10.10.128.2 ping statistics ---
+rtt min/avg/max/mdev = 0.292/0.345/0.520/0.087 ms
+--- 10.10.128.3 ping statistics ---
+rtt min/avg/max/mdev = 0.238/0.267/0.306/0.022 ms

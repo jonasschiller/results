@@ -1,0 +1,59 @@
+  Setup:
+    Experiment = 57_Reveal 
+    Nodes = bitcoin bitcoingold bitcoincash
+    Internal network = 10.10.231.0/24
+    Protocols:
+      Field  = mascot cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = 
+    Inputs = 100
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2024-01/30_11-09-59/E57-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-30_11-10-02_085323
+  Total Experiment runtime = 0h20min29sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .94 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .97 Gbits/sec
+total receiver speed: .92 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .94 Gbits/sec
+total receiver speed: .91 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.231.3 ping statistics ---
+rtt min/avg/max/mdev = 0.220/0.264/0.396/0.066 ms
+--- 10.10.231.4 ping statistics ---
+rtt min/avg/max/mdev = 0.165/0.192/0.232/0.022 ms
+Node bitcoingold statistics
+--- 10.10.231.2 ping statistics ---
+rtt min/avg/max/mdev = 0.229/0.231/0.233/0.001 ms
+--- 10.10.231.4 ping statistics ---
+rtt min/avg/max/mdev = 0.217/0.261/0.395/0.067 ms
+Node bitcoincash statistics
+--- 10.10.231.2 ping statistics ---
+rtt min/avg/max/mdev = 0.247/0.294/0.404/0.056 ms
+--- 10.10.231.3 ping statistics ---
+rtt min/avg/max/mdev = 0.227/0.257/0.271/0.015 ms

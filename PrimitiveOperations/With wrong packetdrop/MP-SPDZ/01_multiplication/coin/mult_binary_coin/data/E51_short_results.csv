@@ -1,0 +1,16 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+51;BINARY;maldishonest;tinier;3;1.76;55;1;10;2.70285;;0;	Percent of CPU this job got: 113;NA;103.899;NA
+51;BINARY;maldishonest;real-bmr;3;1.76;55;1;10;514.732;;0;	Percent of CPU this job got: 116;NA;28692.6;NA
+51;BINARY;semidishonest;semi-bin;3;1.76;55;1;10;0.550425;;0;	Percent of CPU this job got: 131;NA;23.2046;NA
+51;BINARY;semidishonest;yao;2;1.76;55;1;10;0.0304876;;0;	Percent of CPU this job got: 87;NA;1.4279;NA
+51;BINARY;semidishonest;yaoO;2;1.76;55;1;10;0.0236853;;0;	Percent of CPU this job got: 108;NA;1.4279;NA
+51;BINARY;semidishonest;semi-bmr;3;1.76;55;1;10;75.6976;;0;	Percent of CPU this job got: 98;NA;4818.58;NA
+51;BINARY;malhonest;malicious-rep-bin;3;1.76;55;1;10;0.11086;;0;	Percent of CPU this job got: 67;NA;1.54373;NA
+51;BINARY;malhonest;malicious-ccd;3;1.76;55;1;10;0.285186;;0;	Percent of CPU this job got: 107;NA;5.8293;NA
+51;BINARY;malhonest;ps-rep-bin;3;1.76;55;1;10;1.93675;;0;	Percent of CPU this job got: 94;NA;67.8691;NA
+51;BINARY;malhonest;mal-shamir-bmr;3;1.76;55;1;10;5.11363;;0;	Percent of CPU this job got: 99;NA;183.229;NA
+51;BINARY;malhonest;mal-rep-bmr;3;1.76;55;1;10;2.20905;;0;	Percent of CPU this job got: 95;NA;66.8218;NA
+51;BINARY;semihonest;replicated-bin;3;1.76;55;1;10;0.0374554;;0;	Percent of CPU this job got: 64;NA;0.04466;NA
+51;BINARY;semihonest;ccd;3;1.76;55;1;10;0.0505643;;0;	Percent of CPU this job got: 94;NA;0.089304;NA
+51;BINARY;semihonest;shamir-bmr;3;1.76;55;1;10;1.14725;;0;	Percent of CPU this job got: 83;NA;55.22;NA
+51;BINARY;semihonest;rep-bmr;3;1.76;55;1;10;0.672167;;0;	Percent of CPU this job got: 89;NA;27.1301;NA

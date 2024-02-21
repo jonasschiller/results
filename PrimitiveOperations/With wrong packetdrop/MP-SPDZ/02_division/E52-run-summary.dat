@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 52_Int_Division 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.24.0/24
+    Protocols:
+      Field  = replicated-field shamir ps-rep-field
+      Ring   = semi2k ps-rep-ring sy-rep-ring
+      Binary = semi-bmr malicious-rep-bin mal-shamir-bmr replicated-bin ccd
+    Inputs = 10000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 1 30 100 150
+      PACKETDROPS	= 0 1 2 5 10
+      BANDWIDTHS	= 25000 10000 1000 100
+  Summary file = results/2024-01/31_20-17-41/E52-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-31_20-17-45_007816
+  Total Experiment runtime = 2h1min42sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.24.3 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.342/0.562/0.110 ms
+--- 10.10.24.4 ping statistics ---
+rtt min/avg/max/mdev = 0.264/0.290/0.307/0.015 ms
+Node tinyman statistics
+--- 10.10.24.4 ping statistics ---
+rtt min/avg/max/mdev = 0.243/0.337/0.595/0.129 ms
+--- 10.10.24.2 ping statistics ---
+rtt min/avg/max/mdev = 0.260/0.274/0.288/0.011 ms
+Node yieldly statistics
+--- 10.10.24.2 ping statistics ---
+rtt min/avg/max/mdev = 0.269/0.345/0.579/0.117 ms
+--- 10.10.24.3 ping statistics ---
+rtt min/avg/max/mdev = 0.266/0.296/0.321/0.019 ms

@@ -1,0 +1,59 @@
+  Setup:
+    Experiment = 53_Int_Compare 
+    Nodes = bitcoin bitcoingold bitcoincash
+    Internal network = 10.10.189.0/24
+    Protocols:
+      Field  = mascot semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 10
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2024-01/26_11-02-07/E53-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-26_11-02-10_260380
+  Total Experiment runtime = 0h20min32sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .94 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .91 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.189.3 ping statistics ---
+rtt min/avg/max/mdev = 0.225/0.254/0.346/0.046 ms
+--- 10.10.189.4 ping statistics ---
+rtt min/avg/max/mdev = 0.165/0.197/0.235/0.029 ms
+Node bitcoingold statistics
+--- 10.10.189.2 ping statistics ---
+rtt min/avg/max/mdev = 0.179/0.204/0.232/0.021 ms
+--- 10.10.189.4 ping statistics ---
+rtt min/avg/max/mdev = 0.172/0.208/0.339/0.065 ms
+Node bitcoincash statistics
+--- 10.10.189.2 ping statistics ---
+rtt min/avg/max/mdev = 0.229/0.297/0.440/0.073 ms
+--- 10.10.189.3 ping statistics ---
+rtt min/avg/max/mdev = 0.222/0.249/0.268/0.019 ms

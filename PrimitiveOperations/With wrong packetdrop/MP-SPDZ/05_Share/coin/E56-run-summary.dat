@@ -1,0 +1,59 @@
+  Setup:
+    Experiment = 56_Input 
+    Nodes = bitcoin bitcoingold bitcoincash
+    Internal network = 10.10.158.0/24
+    Protocols:
+      Field  = mascot cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 100
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2024-01/30_10-19-54/E56-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-30_10-19-57_345437
+  Total Experiment runtime = 0h27min10sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .94 Gbits/sec
+total receiver speed: .93 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .95 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.158.3 ping statistics ---
+rtt min/avg/max/mdev = 0.202/0.255/0.393/0.069 ms
+--- 10.10.158.4 ping statistics ---
+rtt min/avg/max/mdev = 0.174/0.203/0.227/0.020 ms
+Node bitcoingold statistics
+--- 10.10.158.2 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.224/0.236/0.011 ms
+--- 10.10.158.4 ping statistics ---
+rtt min/avg/max/mdev = 0.184/0.212/0.279/0.034 ms
+Node bitcoincash statistics
+--- 10.10.158.2 ping statistics ---
+rtt min/avg/max/mdev = 0.228/0.286/0.407/0.062 ms
+--- 10.10.158.3 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.265/0.287/0.021 ms

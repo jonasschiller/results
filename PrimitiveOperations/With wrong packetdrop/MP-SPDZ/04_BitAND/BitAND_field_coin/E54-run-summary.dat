@@ -1,0 +1,59 @@
+  Setup:
+    Experiment = 54_Bit_AND 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.175.0/24
+    Protocols:
+      Field  = mascot cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = 
+      Binary = 
+    Inputs = 10
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2024-01/26_13-13-08/E54-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-26_13-13-11_237752
+  Total Experiment runtime = 0h15min56sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.175.3 ping statistics ---
+rtt min/avg/max/mdev = 0.186/0.243/0.409/0.083 ms
+--- 10.10.175.4 ping statistics ---
+rtt min/avg/max/mdev = 0.191/0.212/0.228/0.014 ms
+Node bitcoincash statistics
+--- 10.10.175.2 ping statistics ---
+rtt min/avg/max/mdev = 0.190/0.236/0.262/0.025 ms
+--- 10.10.175.4 ping statistics ---
+rtt min/avg/max/mdev = 0.235/0.293/0.446/0.077 ms
+Node bitcoingold statistics
+--- 10.10.175.2 ping statistics ---
+rtt min/avg/max/mdev = 0.163/0.226/0.374/0.075 ms
+--- 10.10.175.3 ping statistics ---
+rtt min/avg/max/mdev = 0.196/0.208/0.237/0.015 ms

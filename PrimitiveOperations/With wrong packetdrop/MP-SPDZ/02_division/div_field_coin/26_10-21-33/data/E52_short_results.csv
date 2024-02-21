@@ -1,0 +1,15 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+52;FIELD;maldishonest;mascot;3;0.28;30;1;10;1.69395;0:01.80;201;	Percent of CPU this job got: 137;~221;90.2775;270.735
+52;FIELD;covertdishonest;cowgear;3;0.28;30;1;10;14.6705;0:14.85;149;	Percent of CPU this job got: 96;~605;59.0521;174.763
+52;FIELD;covertdishonest;chaigear;3;0.28;30;1;10;56.3443;0:56.71;1261;	Percent of CPU this job got: 98;~303;37.6465;133.355
+52;FIELD;semidishonest;semi;3;0.28;30;1;10;0.327695;0:00.43;63;	Percent of CPU this job got: 121;~136;16.434;49.2684
+52;FIELD;semidishonest;hemi;3;0.28;30;1;10;0.495325;0:00.64;46;	Percent of CPU this job got: 94;~131;3.17991;9.5061
+52;FIELD;semidishonest;temi;3;0.28;30;1;10;0.335748;0:00.58;40;	Percent of CPU this job got: 85;~138;3.96211;8.70671
+52;FIELD;semidishonest;soho;3;0.28;30;1;10;1.15638;0:02.52;158;	Percent of CPU this job got: 97;~132;11.0078;32.9897
+52;FIELD;malhonest;malicious-shamir;3;0.28;30;1;10;0.141252;0:00.23;20;	Percent of CPU this job got: 80;~49;3.8419;11.5257
+52;FIELD;malhonest;malicious-rep-field;3;0.28;30;1;10;0.102659;0:00.19;20;	Percent of CPU this job got: 68;~45;1.12134;3.36403
+52;FIELD;malhonest;ps-rep-field;3;0.28;30;1;10;0.0784329;0:00.17;22;	Percent of CPU this job got: 63;~45;0.641664;1.92499
+52;FIELD;malhonest;sy-rep-field;3;0.28;30;1;10;0.115005;0:00.20;28;	Percent of CPU this job got: 78;~50;0.801296;2.40389
+52;FIELD;semihonest;shamir;3;0.28;30;1;10;0.049762;0:00.13;16;	Percent of CPU this job got: 65;~47;0.960992;2.40245
+52;FIELD;semihonest;atlas;3;0.28;30;1;10;0.0683228;0:00.15;19;	Percent of CPU this job got: 69;~72;1.28088;3.36206
+52;FIELD;semihonest;replicated-field;3;0.28;30;1;10;0.0490894;0:00.13;17;	Percent of CPU this job got: 64;~33;0.320496;0.961488

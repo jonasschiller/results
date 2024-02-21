@@ -1,0 +1,17 @@
+program                    partysize  latencies(ms)  bandwidths(Mbs)  input_size  runtime_internal(s)  Bytes Send  runtimeExternal(s)  RAMused(MB)  System Time (s)
+UseCases/SecureStatistics  3          1              25000            100000      0:09:27.158          206098888   567.46              6113460      14.40
+UseCases/SecureStatistics  3          1              10000            100000      0:09:38.170          206098888   578.42              6068196      13.85
+UseCases/SecureStatistics  3          1              1000             100000      0:09:07.574          206099906   547.84              6102608      12.81
+UseCases/SecureStatistics  3          1              100              100000      0:09:11.398          206099282   551.69              6105936      13.95
+UseCases/SecureStatistics  3          30             25000            100000      0:09:45.475          206098888   585.66              6056472      14.82
+UseCases/SecureStatistics  3          30             10000            100000      0:09:27.206          206098888   567.40              6093340      14.18
+UseCases/SecureStatistics  3          30             1000             100000      0:09:41.092          206099348   581.39              6061740      14.81
+UseCases/SecureStatistics  3          30             100              100000      0:09:13.524          206098888   553.82              6063640      14.06
+UseCases/SecureStatistics  3          100            25000            100000      0:09:20.742          206098888   560.94              6095244      13.84
+UseCases/SecureStatistics  3          100            10000            100000      0:09:14.999          206098888   555.29              6100784      14.43
+UseCases/SecureStatistics  3          100            1000             100000      0:09:07.978          206098888   548.29              6093560      12.94
+UseCases/SecureStatistics  3          100            100              100000      0:09:12.646          206098888   552.93              6060328      13.83
+UseCases/SecureStatistics  3          150            25000            100000      0:09:17.152          206099796   557.45              6084172      14.08
+UseCases/SecureStatistics  3          150            10000            100000      0:09:18.754          206098888   558.97              6080564      14.30
+UseCases/SecureStatistics  3          150            1000             100000      0:09:09.523          206098888   549.78              6101208      13.99
+UseCases/SecureStatistics  3          150            100              100000      0:09:21.855          206098888   562.13              6082428      13.51

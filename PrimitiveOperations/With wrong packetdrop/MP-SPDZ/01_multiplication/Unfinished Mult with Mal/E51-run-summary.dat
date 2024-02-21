@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 51_Int_Multiplication 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.240.0/24
+    Protocols:
+      Field  = mascot semi temi malicious-shamir sy-rep-field shamir ps-rep-field replicated-field
+      Ring   = semi2k malicious-rep-ring sy-rep-ring replicated-ring
+      Binary = 
+    Inputs = 1000000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 1 30 100 150
+      PACKETDROPS	= 0 1 2 5 10
+      BANDWIDTHS	= 25000 10000 1000 100
+  Summary file = results/2024-01/24_20-28-27/E51-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-01-24_20-28-30_386785
+  Total Experiment runtime = 12h33min9sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.240.3 ping statistics ---
+rtt min/avg/max/mdev = 0.275/0.343/0.588/0.122 ms
+--- 10.10.240.4 ping statistics ---
+rtt min/avg/max/mdev = 0.260/0.278/0.304/0.016 ms
+Node tinyman statistics
+--- 10.10.240.4 ping statistics ---
+rtt min/avg/max/mdev = 0.172/0.313/0.547/0.124 ms
+--- 10.10.240.2 ping statistics ---
+rtt min/avg/max/mdev = 0.258/0.284/0.308/0.018 ms
+Node yieldly statistics
+--- 10.10.240.2 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.333/0.522/0.095 ms
+--- 10.10.240.3 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.297/0.335/0.021 ms
