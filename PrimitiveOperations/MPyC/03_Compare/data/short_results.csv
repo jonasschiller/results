@@ -1,4 +1,4 @@
-program;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);Bytes Send;runtime_external(s);RAMused(MB);System Time (s)
+program;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time (s)
 Benchmarks/compare;3;0;25000;10000;0;0:00:01.955;13301989;2.25;167872;4.40
 Benchmarks/compare;3;0;25000;10000;1;0:00:02.481;13301893;2.76;166552;4.38
 Benchmarks/compare;3;0;25000;10000;2;0:00:02.108;13301746;2.39;158740;4.40
