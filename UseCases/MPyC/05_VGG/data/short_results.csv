@@ -1,0 +1,9 @@
+program;partysize;param2;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s)
+UseCases/NeuralNetworkVGG;3;0;0;25000;16;0;0:57:09.585;9941943113;3429.89;36940;197.11
+UseCases/NeuralNetworkVGG;3;0;0;25000;16;1;0:56:43.138;9941943552;3403.33;36757;200.20
+UseCases/NeuralNetworkVGG;3;0;0;25000;16;2;0:57:44.065;9941944807;3464.35;36780;202.93
+UseCases/NeuralNetworkVGG;3;0;0;25000;16;5;0:58:50.588;9941946268;3531.06;36808;206.14
+UseCases/NeuralNetworkVGG;3;0;0;10000;16;0;0:56:46.099;9941947202;3406.39;36819;202.66
+UseCases/NeuralNetworkVGG;3;0;0;10000;16;1;0:56:46.914;9941945336;3407.10;36897;201.23
+UseCases/NeuralNetworkVGG;3;0;0;10000;16;2;0:54:23.076;9941943131;3263.27;36798;204.76
+UseCases/NeuralNetworkVGG;3;0;0;10000;16;5;1:02:07.144;9941943400;3728.35;36316;210.15

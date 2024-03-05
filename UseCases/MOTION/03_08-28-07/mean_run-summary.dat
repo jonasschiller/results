@@ -1,0 +1,11 @@
+  Setup:
+    Experiment = mean 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.195.0/24
+    Inputs = 100 1000 10000 100000
+    Protocols = arithmetic_gmw
+    Testtypes:
+      LATENCIES	= 0 25 50 75
+      PACKETDROPS	= 0 1 2 5
+      BANDWIDTHS	= 25000 10000 1000 100
+  Summary file = results/2024-03/03_08-28-07/mean_run-summary.dat

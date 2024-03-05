@@ -1,0 +1,8 @@
+program;protocol;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec;multTripPresetup;multTripSetup;sharedPowerPresetup;sharedPowerSetup;sharedBitPresetup;sharedBitSetup;baseOT;otExtension;kk13OtExtension;preprocessingTime;gatesSetup;gatesOnline
+BitAND;boolean_gmw;0;0;25000;10000;0;182.688;3.19;27;11;0.184;0.184;392;392;1.596;42.160;0.000;0.000;0.000;0.000;0.000;Setup;Extension;161.940;0.005;2.364
+BitAND;boolean_gmw;0;0;10000;10000;0;97.593;3.11;31;9;0.184;0.184;392;392;1.482;2.622;0.000;0.000;0.000;0.000;0.000;Setup;Extension;84.877;0.005;1.220
+BitAND;boolean_gmw;0;0;1000;10000;0;187.892;3.24;26;10;0.184;0.184;392;392;0.935;43.004;0.000;0.000;0.000;0.000;0.000;Setup;Extension;127.152;0.005;43.490
+BitAND;boolean_gmw;0;0;100;10000;0;197.603;3.21;27;11;0.184;0.184;392;392;1.595;2.675;0.000;0.000;0.000;0.000;0.000;Setup;Extension;99.419;0.005;84.508
+BitAND;boolean_gmw;0;0;25000;10000;1;404.778;3.45;27;10;0.184;0.184;392;392;2.203;50.990;0.000;0.000;0.000;0.000;0.000;Setup;Extension;387.220;0.005;2.586
+BitAND;boolean_gmw;0;0;25000;10000;2;322.093;0.55;29;60;0.184;0.184;392;392;2.037;1.198;0.000;0.000;0.000;0.000;0.000;Setup;Extension;304.762;0.005;1.880
+BitAND;boolean_gmw;0;0;25000;10000;5;761.204;3.77;27;9;0.184;0.184;392;392;1.834;1.484;0.000;0.000;0.000;0.000;0.000;Setup;Extension;533.043;0.005;210.057

@@ -1,0 +1,14 @@
+  Setup:
+    Experiment = min 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.5.0/24
+    Inputs = 100 1000 10000
+    Protocols = boolean_gmw
+    Testtypes:
+      LATENCIES	= 0 25 50 75
+      PACKETDROPS	= 0 1 2 5
+      BANDWIDTHS	= 25000 10000 1000 100
+  Summary file = results/2024-03/02_23-34-20/min_run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-02_23-34-23_423563
+  Total Experiment runtime = 8h48min15sec
+  Experiment run status: [0;33mincomplete[0m

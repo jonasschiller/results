@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 51_Int_Multiplication 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.207.0/24
+    Protocols:
+      Field  = replicated-field shamir
+      Ring   = replicated-ring ps-rep-ring semi2k
+      Binary = 
+    Inputs = 1000000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000 25000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100
+  Summary file = results/2024-03/01_16-24-21/E51-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-01_16-24-24_375924
+  Total Experiment runtime = 2h0min4sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.70 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.207.3 ping statistics ---
+rtt min/avg/max/mdev = 0.273/0.347/0.581/0.118 ms
+--- 10.10.207.4 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.281/0.300/0.010 ms
+Node tinyman statistics
+--- 10.10.207.4 ping statistics ---
+rtt min/avg/max/mdev = 0.274/0.340/0.584/0.121 ms
+--- 10.10.207.2 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.291/0.315/0.015 ms
+Node yieldly statistics
+--- 10.10.207.2 ping statistics ---
+rtt min/avg/max/mdev = 0.259/0.340/0.584/0.122 ms
+--- 10.10.207.3 ping statistics ---
+rtt min/avg/max/mdev = 0.245/0.272/0.294/0.016 ms

@@ -1,0 +1,8 @@
+program;protocol;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec
+BitAND;boolean_gmw;0;0;25000;10000;0;182.688;3.19;27;11;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;10000;10000;0;97.593;3.11;31;9;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;1000;10000;0;187.892;3.24;26;10;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;100;10000;0;197.603;3.21;27;11;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;25000;10000;1;404.778;3.45;27;10;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;25000;10000;2;322.093;0.55;29;60;0.184;0.184;392;392
+BitAND;boolean_gmw;0;0;25000;10000;5;761.204;3.77;27;9;0.184;0.184;392;392
